@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/450px-Hopetoun_falls.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/450px-Hopetoun_falls.jpg'));
 });
 
 
