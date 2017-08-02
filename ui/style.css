@@ -20,5 +20,5 @@ body {
     height: 200px;
 }
 footer {
-    background-color: red;
+    background-color: red !important;
 }
