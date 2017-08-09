@@ -7,6 +7,12 @@ app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+}); 
+app.get('/ist', function(req,res){
+   res.sendfile("first article"); 
+});
+app.get('/2nd', function(req,res){
+   res.sendfile("sec article"); 
 });
 
 app.get('/ui/style.css', function (req, res) {
